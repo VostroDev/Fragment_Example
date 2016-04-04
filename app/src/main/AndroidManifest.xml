@@ -9,23 +9,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!--Simple Fragment Example-->
-        <activity android:name=".MainActivity">
+        <!-- Simple Fragment Example -->
+        <activity android:name=".MainActivity"></activity>
 
-        </activity>
+        <!-- Swipe Fragment Example -->
+        <activity android:name=".SwipeActivity"></activity>
 
-        <!--Swipe Fragment Example-->
-        <activity android:name=".SwipeActivity">
-
-        </activity>
-
-        <!--Launcher Activity-->
+        <!-- Launcher Activity -->
         <activity android:name=".LauncherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CombinationActivity"></activity>
     </application>
 
 </manifest>

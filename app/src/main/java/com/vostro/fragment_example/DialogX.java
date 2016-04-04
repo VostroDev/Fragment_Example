@@ -14,7 +14,7 @@ public class DialogX extends DialogFragment{
         @Override
         public void onClick(View v) {
             dismiss();
-            ((MainActivity)getActivity()).swopFragment(v);  // this is how to call method in main activity from fragment.
+            ((MainActivity)getActivity()).swapFragment(v);  // this is how to call method in main activity from fragment.
         }
     };
 

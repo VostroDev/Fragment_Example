@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         showDialogX();
     }
 
-    public void swopFragment(View view) {
+    public void swapFragment(View view) {
         FragmentThree objThree = new FragmentThree();   // instance of FragmentThree.java
         FragmentTwo objTwo = new FragmentTwo();         // instance of FragmentTwo.java
 

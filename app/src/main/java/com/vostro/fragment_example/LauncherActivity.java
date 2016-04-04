@@ -27,6 +27,11 @@ public class LauncherActivity extends AppCompatActivity {
                 Intent swipeIntent = new Intent(this, SwipeActivity.class);
                 startActivity(swipeIntent);
                 break;
+
+            case R.id.btnCombination:
+                Intent combiIntent = new Intent(this, CombinationActivity.class);
+                startActivity(combiIntent);
+                break;
         }
 
     }
