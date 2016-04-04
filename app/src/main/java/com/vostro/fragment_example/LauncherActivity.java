@@ -27,6 +27,10 @@ public class LauncherActivity extends AppCompatActivity {
                 Intent swipeIntent = new Intent(this, SwipeActivity.class);
                 startActivity(swipeIntent);
                 break;
+
+            case R.id.btnCombination:
+                Toast.makeText(this, "Not implemented yet", Toast.LENGTH_SHORT).show();
+                break;
         }
 
     }
