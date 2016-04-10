@@ -8,6 +8,29 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+// Notes
+/*
+  1. Simple loading of a fragment into a container
+  2. Swipe transitions between fragment in a container using swipe gestures
+  3. Swipe transitions between fragment in a container using buttons
+
+  files:
+      FragmentOne.java
+      FragmentTwo.java
+      FragmentThree.java
+      CombinationActivity.java (this file)
+      CombinationTabFragment.java
+
+      fragment_one.xml
+      fragment_two.xml
+      fragment_three.xml
+      combination_activity.xml
+      combination_tab_layout.xml
+
+      styles.xml
+      colors.xml
+ */
+
 public class CombinationActivity extends AppCompatActivity {
 
     private static final String TAG = "FRAG";
@@ -32,6 +55,11 @@ public class CombinationActivity extends AppCompatActivity {
         mFragmentTransaction.replace(R.id.container_combi_bottom, new CombinationTabFragment());
         mFragmentTransaction.commit();
 
+        /* alternative to using instance variables
+           getSupportFragmentManager().beginTransaction()
+                .replace(R.id.containerTransformView, new TransformerSwipeTabFragment())
+                .commit();
+         */
     }
 
     public void swipeBottomFragment(View view) {

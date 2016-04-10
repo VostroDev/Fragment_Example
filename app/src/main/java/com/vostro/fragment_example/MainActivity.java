@@ -7,6 +7,28 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+// Notes
+/*
+  1. Simple loading of a fragment into a container
+  2. Simple swapping of fragments into a container
+  3. Simple loading of a Dialog fragment.
+  files:
+      FragmentOne.java
+      FragmentTwo.java
+      FragmentThree.java
+      MainActivity.java (this file)
+      DialogX.java
+
+      fragment_one.xml
+      fragment_two.xml
+      fragment_three.xml
+      activity_main.xml
+      dialog_fragment.xml
+
+      styles.xml
+      colors.xml
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

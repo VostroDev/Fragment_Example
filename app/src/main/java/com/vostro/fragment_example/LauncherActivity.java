@@ -6,6 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+// Notes
+/*
+  Not part of any Fragment Example
+  Just function a example launcher
+
+  File:
+    LauncherActivity.java
+    launcher_activity.xml
+ */
+
 public class LauncherActivity extends AppCompatActivity {
 
     // Used to Launch examples, this is not necessary class for fragment examples
