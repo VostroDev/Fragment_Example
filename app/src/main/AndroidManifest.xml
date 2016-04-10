@@ -10,10 +10,15 @@
         android:theme="@style/AppTheme">
 
         <!-- Simple Fragment Example -->
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
 
         <!-- Swipe Fragment Example -->
-        <activity android:name=".SwipeActivity"></activity>
+        <activity android:name=".SwipeActivity" />
+
+        <!-- Transformer Fragment Example -->
+        <activity
+            android:name=".TransformerSwipeActivity"
+            android:theme="@style/GreyTheme"/>
 
         <!-- Launcher Activity -->
         <activity android:name=".LauncherActivity">
@@ -23,7 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CombinationActivity"></activity>
+        <activity android:name=".CombinationActivity" />
+
     </application>
 
 </manifest>

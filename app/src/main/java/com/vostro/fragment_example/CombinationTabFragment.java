@@ -20,7 +20,7 @@ public class CombinationTabFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         //Inflate tab_layout and setup Views.
-        View v = inflater.inflate(R.layout.combination_tab_layout, null);
+        View v = inflater.inflate(R.layout.combination_tab_layout, container, false);
         viewPager = (ViewPager) v.findViewById(R.id.combiviewpager);
 
         //Set an Adapter for the View Pager

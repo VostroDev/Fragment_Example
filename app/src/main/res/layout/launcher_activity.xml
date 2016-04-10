@@ -32,4 +32,11 @@
         android:layout_height="wrap_content"
         android:onClick="btnOpen"
         android:text="Combination Fragment Example" />
+
+    <Button
+        android:id="@+id/btnTransformer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnOpen"
+        android:text="Transformer Swipe Fragment Example" />
 </LinearLayout>

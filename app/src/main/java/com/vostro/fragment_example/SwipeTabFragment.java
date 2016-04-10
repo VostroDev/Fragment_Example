@@ -25,7 +25,8 @@ public class SwipeTabFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         //Inflate tab_layout and setup Views.
-        View x = inflater.inflate(R.layout.swipe_tab_layout, null);
+        //View x = inflater.inflate(R.layout.swipe_tab_layout, null);
+        View x = inflater.inflate(R.layout.swipe_tab_layout, container, false);
         ////tabLayout = (TabLayout) x.findViewById(R.id.tabs);
         viewPager = (ViewPager) x.findViewById(R.id.viewpager);
 

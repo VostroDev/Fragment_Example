@@ -32,6 +32,11 @@ public class LauncherActivity extends AppCompatActivity {
                 Intent combiIntent = new Intent(this, CombinationActivity.class);
                 startActivity(combiIntent);
                 break;
+
+            case R.id.btnTransformer:
+                Intent transformIntent = new Intent(this, TransformerSwipeActivity.class);
+                startActivity(transformIntent);
+                break;
         }
 
     }
